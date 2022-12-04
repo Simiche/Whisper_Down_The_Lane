@@ -35,8 +35,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CellFade: 1.5
-    - _CellLineAmount: 8
+    - _CellFade: 1.2
+    - _CellLineAmount: 10
     - _LineAmount: 12
     - _OutlineThickness: 4
     - _QueueControl: 0
