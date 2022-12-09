@@ -358,7 +358,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &993210171 stripped
 Transform:
@@ -771,10 +771,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 3728818500768558060, guid: 01f380f05333cb54ba40c5c981908623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6224730956124118718, guid: 01f380f05333cb54ba40c5c981908623,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6224730956124118718, guid: 01f380f05333cb54ba40c5c981908623,
         type: 3}
@@ -1008,7 +1013,7 @@ PrefabInstance:
     - target: {fileID: 9156103379090253989, guid: 60970290f39b9dc4694a22e2df818b52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9156103379090253989, guid: 60970290f39b9dc4694a22e2df818b52,
         type: 3}
