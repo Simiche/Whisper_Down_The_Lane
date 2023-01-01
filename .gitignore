@@ -76,3 +76,9 @@ Assets/Game Assets/Videos/Whisper_Down_The_Lane_Base_Colour.mp4.meta
 Assets/Game Assets/Videos/Whisper_Down_The_Lane_Base_Colour.mp4
 Assets/Game Assets/Videos/Whisper_Down_The_Lane_AO.mp4.meta
 Assets/Game Assets/Videos/Whisper_Down_The_Lane_AO.mp4
+Assets/Game Assets/Videos/Whisper_Down_The_Lane_Height.mp4
+Assets/Game Assets/Videos/Whisper_Down_The_Lane_Emission.mp4
+Assets/Game Assets/Materials/Movie_Texture/Movie_Emission.renderTexture
+Assets/Game Assets/Materials/Movie_Texture/Movie_Height.renderTexture
+Assets/Game Assets/Audio/Whisper_Down_The_Lane.wav.meta
+Assets/Game Assets/Materials/Movie_Texture/Movie_Height.renderTexture.meta
