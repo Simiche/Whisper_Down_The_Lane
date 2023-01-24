@@ -1087,6 +1087,8 @@ GameObject:
   - component: {fileID: 7047633977496265832}
   - component: {fileID: 7047633977496265835}
   - component: {fileID: 7047633977496265834}
+  - component: {fileID: 1615996039}
+  - component: {fileID: 1615996038}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -1125,7 +1127,7 @@ MonoBehaviour:
   m_Camera: {fileID: 7047633977954602314}
   m_OriginBaseGameObject: {fileID: 7047633977496265829}
   m_CameraFloorOffsetObject: {fileID: 7047633976722166025}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
 --- !u!114 &7047633977496265834
 MonoBehaviour:
@@ -1141,6 +1143,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!81 &1615996039
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7047633977496265829}
+  m_Enabled: 1
+--- !u!114 &1615996038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7047633977496265829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8348c1111224043afdc10bcba4931d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7047633977954602310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,8 +1173,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7047633977954602311}
   - component: {fileID: 7047633977954602314}
-  - component: {fileID: 7047633977954602309}
   - component: {fileID: 7047633977954602308}
+  - component: {fileID: 1135254624}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1218,14 +1240,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &7047633977954602309
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7047633977954602310}
-  m_Enabled: 1
 --- !u!114 &7047633977954602308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1246,12 +1260,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: 95323d19-abd9-4751-9f2a-f45ea2b34b84
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: daddd710-8bd1-4287-a7b5-121193b4b363
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -1266,12 +1280,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: ac7978e9-de4b-4215-821b-b985c531a487
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: d597c5b4-f476-48b1-ae5e-4788e6e112cb
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -1299,3 +1313,36 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   m_HasMigratedActions: 1
+--- !u!114 &1135254624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7047633977954602310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
