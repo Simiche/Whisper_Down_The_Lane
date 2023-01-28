@@ -35,7 +35,7 @@ public class ScenesManager : MonoBehaviour
     //lets load our test level
     public void BeginGame()
     {
-        SceneManager.LoadScene("Test");
+        SceneManager.LoadScene("VideoPlay");
     }
 
     public void ExitGame()
